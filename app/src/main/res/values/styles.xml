@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<resources>
+
+
+    <style name="DarkMode" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="background">@color/primaryLightColor</item>
+        <item name="cardbackground">@color/primaryDarkColor</item>
+        <item name="textcolor">@color/primaryTextColor</item>
+        <item name="tintcolor">@color/secondaryColor</item>
+        <item name="textmenu">@string/lightMode</item>
+        <item name="colorcencel">@android:color/holo_red_dark</item>
+        <item name="titlecolor">@color/primaryTextColor</item>
+    </style>
+
+
+
+
+</resources>

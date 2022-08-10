@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Pet Shops</string>
+    <string name="lightMode">Light Mode</string>
+    <string name="darkMode">Dark Mode</string>
+    <string-array name="nama">
+        <item>Evo Pet Shop</item>
+        <item>Jim Petshop</item>
+        <item>Pee Wee Petshop</item>
+        <item>Yosella Petshop</item>
+        <item>Beethoven </item>
+        <item>Planet Pet Shop </item>
+        <item>3D Petshop</item>
+        <item>Pazzy Pet Shop</item>
+        <item>Kelinci Wong Kito</item>
+        <item>Ayumi Petshop</item>
+    </string-array>
+    <string-array name="alamat">
+        <item>Jl. Lingkaran1 No.565, 15 Ilir, Ilir Timur I, Kota Palembang, Sumatera Selatan.</item>
+        <item>Bukit Lama, Ilir Barat I.</item>
+        <item>Jl. Brigjen Hasan Kasim Blok A No. 3, Celentang, Bukit Sangkal, Kalidoni, Kota Palembang, Sumatera Selatan.</item>
+        <item>Kompleks PTC Blok H No. 7, Jalan R Sukamto, 8 Ilir, Kota Palembang, Sumatera Selatan.</item>
+        <item>Komp. Ilir Bar. Permai, Kompleks Ramayana, Jl. Radial, 24 Ilir, Bukit Kecil, Kota Palembang, Sumatera Selatan.</item>
+        <item>Jl. Brigjen Hasan Kasim No.30G, Bukit Sangkal, Kalidoni, Kota Palembang, Sumatera Selatan. </item>
+        <item>Jl. Radial No.10, 24 Ilir, Bukit Kecil, Kota Palembang, Sumatera Selatan.</item>
+        <item>Jl. Rawasari No.1833, 20 Ilir D II, Kemuning, Kota Palembang, Sumatera Selatan.</item>
+        <item>Lorong Sungai Itam No.1034C, Bukit Lama, Ilir Bar. I, Kota Palembang, Sumatera Selatan.</item>
+        <item>Jl. Musi Raya Timur, Sialang, Sako, Kota Palembang, Sumatera Selatan.</item>
+    </string-array>
+    <string-array name="desk">
+        <item>Evo Pet Shop, salah satu petshop terbesar di palembang yang telah memiliki beberapa cabang diantaranya cabang dempo, jl sumpah pemuda dan lain-lain</item>
+        <item>Jim Petshop, Kamu bisa beli produk dari Toko Jim Petshop dengan aman dan mudah dari Kota Palembang. Ingin belanja lebih hemat dan terjangkau di Toko Jim Petshop? Kamu bisa gunakan fitur Cicilan 0% dari berbagai bank dan fitur Bebas Ongkir di Toko Jim Petshop sehingga kamu bisa belanja online dengan nyaman di Tokopedia. </item>
+        <item>Pee Wee Petshop,Pee-Wee Petshop merupakan usaha tempat makan hewan ternak dengan kualitas yang sangat menjanjikan yang terletak di jalan lingkaran dengan berbagai macam pakan ternak seperti anjing,kucing dan lain lain serta menyediakan tempat.</item>
+        <item>Yosella Petshop,Yosella Pet Shop berdiri pada tahun 2009. Berlokasi di Jalan Mayor HM Rasyad Nawawi 240 Dempo Luar Palembang.Yosella Pet Shop menjual berbagai macam makanan, aksesoris, kandang untuk hewan peliharaan anda seperti kucing dan anjing. </item>
+        <item>Beethoven, Berthoven Pet Shop dibuka sejak 2002. Beethoven adalah pet shop pertama kali di Palembang atau lebih dikenal oleh orang banyak.Disini menjual lengkap aksesoris, makanan, hewan peliharaan, dan lain-lain seputar hewan pemeliharaan pelanggan.Usaha ini bisa bersaing denga usaha lainnya di Palembang. </item>
+        <item>Planet Pet Shop, Planet Pet Shop meruoakan usaha dari bapak hardimansyah yang telah berjalan sejak tahun 2007, yang menyediakan berbagai jenis produk makanan hewan </item>
+        <item>,3D Petshop merupakan toko  di palembang. 3D Petshop berlokasi di JALAN Radial, 3D Petshop mampu bersaing dengan bisnis-bisnis lainnya yang pada area kawasan palembang kota. Melalui 3D Petshop kamu dapat membeli kebutuhan harianmu.</item>
+        <item>Pazzy Pet Shop,Pazzy Pet Shop merupakan tempat usaha yang berada di Palembang. Tempat ini terletak di Jalan Rawasari. Tempat ini menyediakan kebutuhan hewan. Bagi Anda yang membutuhkan nya, silahkan datang ke tempat ini.</item>
+        <item>Kelinci Wong Kito, Tempatnya Hobies, Peternak dan Pecinta Kelinci Mencari Info dan Kelinci Berkualitas di Kota Palembang. Kami juga menyediakan Obat-obatan dan pakan kelinci dengan harga yang terjangkau</item>
+        <item>Ayumi Petshop, Anda bisa menghubungi Ayumi Petshop lewat telepon menggunakan nomor 0823-7941-7262.</item>
+        </string-array>
+    <string-array name="tlp">
+        <item>07115733745</item>
+        <item>081212342022</item>
+        <item>07117826218</item>
+        <item>0711379765</item>
+        <item>0711312763 </item>
+        <item>081271538897 </item>
+        <item>0711315614</item>
+        <item>07117378310</item>
+        <item>0711446000</item>
+        <item>081316560700</item>
+    </string-array>
+    <string-array name="maps">
+        <item>https://goo.gl/maps/PfHqDfPtVTFuDVQXA</item>
+        <item>https://goo.gl/maps/cHUHLLXHMFoqFKje8</item>
+        <item>https://goo.gl/maps/qUB2ieTTw9TLwdeK8</item>
+        <item>https://g.page/yossella?share</item>
+        <item>https://goo.gl/maps/PKBuARbfbnHPaGqP9 </item>
+        <item>https://g.page/planetpetshopplg?share </item>
+        <item>https://goo.gl/maps/gNoPvtSysXnaTmrCA</item>
+        <item>https://goo.gl/maps/MvZPaGiky5qqwRfV9</item>
+        <item>https://goo.gl/maps/3uK1qSoU4L8Wt3d97</item>
+        <item>https://goo.gl/maps/fgiZ6ji9kxeXJm2Z6</item>
+    </string-array>
+    <string-array name="img">
+        <item>@drawable/tumb_evo</item>
+        <item>@drawable/tumb_jim</item>
+        <item>@drawable/tumb_peeweepetshop</item>
+        <item>@drawable/tumb_yossella</item>
+        <item>@drawable/tumb_beethoven</item>
+        <item>@drawable/tumb_planet</item>
+        <item>@drawable/tumb_trid</item>
+        <item>@drawable/tumb_puzzy</item>
+        <item>@drawable/tumb_kelinci</item>
+        <item>@drawable/tumb_ayumi</item>
+
+    </string-array>
+</resources>

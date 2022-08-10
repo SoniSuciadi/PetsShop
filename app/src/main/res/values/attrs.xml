@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="lightMode">
+        <attr name="cardbackground" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="tintcolor" format="color"/>
+        <attr name="buttoncolor" format="color"/>
+        <attr name="textmenu" format="string"/>
+        <attr name="titlecolor" format="color"/>
+        <attr name="colorcencel" format="color"/>
+    </declare-styleable>
+</resources>

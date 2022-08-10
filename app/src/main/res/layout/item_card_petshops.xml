@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+        <ImageView
+            android:id="@+id/iv_petshop"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Petshop"
+            android:layout_below="@id/iv_petshop"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textSize="21sp"
+            />
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jl. Lingkaran1 No.565, 15 Ilir, Ilir Timur I, Kota Palembang, Sumatera Selatan."
+            android:layout_below="@id/tv_nama"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

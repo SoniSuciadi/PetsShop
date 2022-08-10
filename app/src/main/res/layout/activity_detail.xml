@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".DetailActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pet Shop"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:textColor="@android:color/white"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ImageView
+        android:id="@+id/iv_petshop_detail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/appBar"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/iv_petshop_detail">
+        <TextView
+            android:id="@+id/tv_nama_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Nama Salon"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_alamat_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Salon"
+
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_below="@id/tv_nama_detail"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:id="@+id/ly_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/tv_alamat_detail"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_tlp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telepone:"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/tv_alamat_detail"
+                android:textSize="21sp"
+                android:layout_marginTop="11dp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/btn_tlp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:text="08117858100"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/tv_tlp"
+                android:layout_below="@id/tv_alamat_detail"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_desk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ly_contact"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_location_on_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>
